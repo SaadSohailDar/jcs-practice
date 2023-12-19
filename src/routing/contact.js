@@ -4,9 +4,11 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import HeroTrySection from "../components/herotry";
 const Contact = () => {
   return (
   <div>
+    <HeroTrySection />
     <Container>
 
     <h1 className="heading">Contact Page</h1>

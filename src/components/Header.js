@@ -13,6 +13,7 @@ import Contact from "../routing/contact";
 import Services from "../routing/services";
 import Home from "../routing/home";
 import { Link, NavLink } from 'react-router-dom';
+import "./Header.scss" 
 
 export function Header(){
     return(

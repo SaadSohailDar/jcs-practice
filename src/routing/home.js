@@ -1,8 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-const Home = () => {
+import HeroSection from "../components/hero";
+
+export default function Home () {
 
   return (
+    <>
+    <HeroSection />
     <Container>
     <h1 className="heading">Home Page</h1>
     <p>
@@ -12,8 +16,9 @@ const Home = () => {
       lorem tortor dapibus turpis, sit amet vestibulum eros mi et odio.
     </p>
     </Container>
-
+    
+    </>
   );
 }
 
-export default Home;
+
