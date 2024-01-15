@@ -21,17 +21,7 @@ const App = () => {
     <Header />
     
     <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/disability" element={< Disability />} >
-          <Route index element={<CustomAccordion />} />
-          <Route path=":id" element={<Home />} />        
-        </Route>
-      </Routes>
+      
     </div>
     <Footer />
   </> 

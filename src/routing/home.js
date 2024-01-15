@@ -2,13 +2,13 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import HeroSection from "../components/hero";
 
-export default function Home () {
+export default function Home ({heading, title}) {
 
   return (
     <>
     <HeroSection />
     <Container>
-    <h1 className="heading">Home Page</h1>
+    <h1 className="heading">{heading}</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida,
       risus at dapibus aliquet, elit quam scelerisque tortor, nec accumsan eros

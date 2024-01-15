@@ -23,13 +23,7 @@ export function Header(){
             <Navbar.Brand href="#">Navbar</Navbar.Brand>
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end">
                     <Nav className="ms-auto">
-                        {headerItems.map((item,index)=>{
-                            return(
-                                <Link to={item.url} className={item.cName} key={index}>
-                                    {item.title}
-                                </Link>
-                            );
-                        })}
+                      
                     </Nav>
                 </Navbar.Collapse>
             </Container>

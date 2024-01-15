@@ -19,4 +19,10 @@ export const headerItems=[
         url:"/contact",
         cName:"nav-links"
     },
+    {
+        title:"buta",
+        url:"/buta",
+        cName:"nav-links"
+
+    }
 ]
